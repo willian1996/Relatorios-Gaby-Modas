@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^relatorios(.*)$ server/Relatorios.php [NC,L]
